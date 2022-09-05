@@ -1,0 +1,25 @@
+h1,p{text-align:center;
+}
+
+body{
+    background-color:rgb(248, 232, 166);
+}
+
+.links{
+        display:flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+.links a{
+    margin:0 20px;
+    color:green;
+}
+a:hover{
+    cursor:pointer;
+}
+
+img{
+    max-width:100%;
+    margin-bottom:20px;
+}
